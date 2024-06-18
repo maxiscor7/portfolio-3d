@@ -12,7 +12,7 @@ const Home = () => {
       <div className='hero'>
         <div className='container-title'>
           <h1>CORNALBA MAXIMILIANO</h1>
-          <p>Discover more about me, my projects, and my skills. Thank you for taking the time to visit my site.</p>
+          <p>Greetings! Explore my story, projects, and skills. Dive into my portfolio and discover more!</p>
           <div className='container-social-links'>
             <img src={github} alt='social media icon github' />
             <img src={linkedin} alt='social media icon linkedin' />
@@ -25,11 +25,11 @@ const Home = () => {
         <div className='container-last-part-hero'>
           <div className='cards-hero-container'>
             <h2>FRONT-END DEVELOPER</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate mollitia culpa veritatis! Natus, sunt?</p>
+            <p>Based in Argentina, with over 4 years of experience crafting web solutions. Skilled in HTML, CSS, JavaScript, React, Vite, Next.js, and proficient with platforms like Webflow and WordPress, delivering seamless and optimized digital experiences.</p>
           </div>
           <div className='cards-hero-container'>
             <h2>ABOUT ME</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate mollitia culpa veritatis! Natus, sunt?</p>
+            <p>Beyond my professional endeavors, I am passionate about pushing the boundaries of user experience through innovative 3D design. My goal is to elevate digital interactions by integrating cutting-edge design principles into every project.</p>
           </div>
         </div>
       </div>
