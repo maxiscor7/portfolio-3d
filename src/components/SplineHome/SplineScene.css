@@ -1,0 +1,17 @@
+.spline-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .spline-canvas {
+    width: 100%;
+    height: 100%;
+  }
+  @media only screen and (max-width: 900px) {
+
+    .spline-container{
+      visibility: hidden;
+    }
+  }

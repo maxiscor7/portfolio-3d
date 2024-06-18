@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  body{
+    height: 120vh;
+    background: radial-gradient(circle at top left, #928AD8,#060229, #060229, #000000);
+    background-size: cover;
+  }
+  

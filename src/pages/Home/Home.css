@@ -1,0 +1,160 @@
+.section-hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+.container-title{
+    width: 100%;
+    min-height: 250px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container-title h1{
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+.container-title p{
+    padding: 0 10px;
+    font-size: 20px;
+    color: rgb(143, 138, 138);
+    margin-bottom: 15px;
+}
+.container-social-links{
+    padding: 0 10px;
+    display: flex;
+    position: relative;
+    width: 130px;
+    z-index: 101;
+}
+.container-social-links img{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.profile-picture{
+    height: 300px;
+    object-fit: contain;
+    opacity: 0.75;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
+    /* Aplica un degradado de máscara */
+    filter: blur(0px) drop-shadow(0 4px 15px rgba(0, 0, 0, 0.5));
+}
+
+.container-last-part-hero{
+    width: 100%;
+    max-height: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cards-hero-container{
+    width: 300px;
+    height: 200px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(53, 48, 48, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cards-hero-container h2{
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.cards-hero-container p{
+    padding: 0 10px;
+    color: rgb(143, 138, 138);
+
+}
+@media only screen and (min-width: 658px) {
+    .container-title{
+        display: inline;
+        text-align: left;
+    }
+    .container-title h1{
+        font-size: 35px;
+    }
+    .container-title p{
+        font-size: 25px;
+    }
+    .profile-picture{
+        position: absolute;
+        bottom: 180px;
+        left: 10px;
+        height: 400px;
+    }
+    .cards-hero-container{
+        position: relative;
+    }
+}
+@media only screen and (min-width: 690px) {
+    .hero{
+        width: 690px;
+        
+    }
+  }
+
+  @media only screen and (min-width: 1150px) {
+    .hero{
+        width: 900px;
+    }
+    .profile-picture{
+        bottom: 210px;
+        left: 30px;
+        height: 450px;
+    }
+    .cards-hero-container{
+        width: 400px;
+        height: 250px;
+    }
+    .cards-hero-container h2{
+        padding: 0 20px;
+        font-size: 25px;
+    }
+    .cards-hero-container p{
+        padding: 0 20px;
+        font-size: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    .hero{
+        left: 10%;
+    }
+    .container-title h1{
+        font-size: 45px;
+    }
+    
+  
+  }
+  @media only screen and (min-width: 1430px) {
+    .hero{
+        left: 15%;
+    }
+   
+  }
