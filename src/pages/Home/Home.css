@@ -1,15 +1,15 @@
 .section-hero{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 .hero{
     width: 100%;
-    min-height: 1000px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
 }
 .container-title{
     width: 100%;
@@ -55,7 +55,16 @@
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
     /* Aplica un degradado de máscara */
     filter: blur(0px) drop-shadow(0 4px 15px rgba(0, 0, 0, 0.5));
+    position: relative;
 }
+.container-SplineScene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Asegúrate de que tenga un z-index mayor que el resto de los elementos si deseas que se superponga */
+  }
 
 .container-last-part-hero{
     width: 100%;
@@ -95,6 +104,7 @@
     .container-title{
         display: inline;
         text-align: left;
+        margin-left: 20px;
     }
     .container-title h1{
         font-size: 35px;
@@ -103,10 +113,9 @@
         font-size: 25px;
     }
     .profile-picture{
-        position: absolute;
-        bottom: 180px;
-        left: 10px;
-        height: 400px;
+        bottom: 0;
+        left: 0;
+        height: 350px;
     }
     .cards-hero-container{
         position: relative;
@@ -124,9 +133,8 @@
         width: 900px;
     }
     .profile-picture{
-        bottom: 210px;
-        left: 30px;
-        height: 450px;
+        
+        left: -200px;
     }
     .cards-hero-container{
         width: 400px;
@@ -145,6 +153,10 @@
   @media only screen and (min-width: 1300px) {
     .hero{
         left: 10%;
+    }
+    .container-title{
+        max-width: 700px;
+        
     }
     .container-title h1{
         font-size: 45px;

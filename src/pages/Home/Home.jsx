@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import SplineScene from '../../components/SplineHome/SplineScene';
 import './Home.css';
 import github from '../../assets/github.png';
@@ -14,13 +14,13 @@ const Home = () => {
           <h1>CORNALBA MAXIMILIANO</h1>
           <p>Discover more about me, my projects, and my skills. Thank you for taking the time to visit my site.</p>
           <div className='container-social-links'>
-            <img src={github} alt='social media icon github'/>
-            <img src={linkedin} alt='social media icon linkedin'/>
-            <img src={instagram} alt='social media icon instagram'/>
+            <img src={github} alt='social media icon github' />
+            <img src={linkedin} alt='social media icon linkedin' />
+            <img src={instagram} alt='social media icon instagram' />
           </div>
         </div>
 
-        <img src={profile} alt='profile-picture' className='profile-picture'/>
+        <img src={profile} alt='profile-picture' className='profile-picture' />
 
         <div className='container-last-part-hero'>
           <div className='cards-hero-container'>
@@ -34,9 +34,12 @@ const Home = () => {
         </div>
       </div>
 
-      <SplineScene/>
+      <div className='container-SplineScene'>
+        <SplineScene />
+      </div>
+      
     </section>
-  )
+  );
 }
 
-export default Home
+export default Home;
