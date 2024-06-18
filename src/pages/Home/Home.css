@@ -87,12 +87,12 @@
 
 .cards-hero-container {
     width: 300px;
-    height: 280px;
+    height: 250px;
     font-family: "Montserrat", sans-serif;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 30px;
     border-radius: 20px;
     background: rgba(53, 48, 48, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -114,11 +114,61 @@
     color: rgb(143, 138, 138);
 
 }
+.projects-experience{
+    width: 100%;
+    height: 100%;
+    border: solid 3px rgb(188, 0, 131);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projects-container{
+    width: 380px;
+    height: 600px;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.projects{
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    overflow-y: scroll;
+}
+.project-item{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+/* Estilos para la barra de desplazamiento (solo para navegadores webkit) */
+.projects::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .projects::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del track de la barra de desplazamiento */
+  }
+  
+  .projects::-webkit-scrollbar-thumb {
+    background: #0d0ba7; /* Color del thumb de la barra de desplazamiento */
+    border-radius: 10px; /* Radio del thumb para hacerlo redondeado */
+  }
+  
+  .projects::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del thumb cuando se pasa el mouse por encima */
+  }
+.container-experience{
+    width: 380px;
+    height: 600px;
+    background-color: rgb(8, 112, 116);
+}
+
 @media only screen and (min-width: 500px) {
     .profile-picture{
         left: 30%;
     }
-
 }
 
 @media only screen and (min-width: 658px) {
@@ -127,30 +177,24 @@
         text-align: left;
         margin-left: 20px;
     }
-
     .container-title h1 {
         font-size: 25px;
     }
-
     .container-title p {
         font-size: 20px;
     }
-
     .profile-picture {
         left: 10%;
     }
-
     .cards-hero-container {
         position: relative;
         height: 250px;
-
     }
 }
 
 @media only screen and (min-width: 690px) {
     .hero {
         width: 690px;
-
     }
 }
 
@@ -158,20 +202,26 @@
     .hero {
         width: 900px;
     }
-
     .cards-hero-container {
         width: 400px;
         height: 250px;
     }
-
     .cards-hero-container h2 {
         padding: 0 20px;
         font-size: 22px;
     }
-
     .cards-hero-container p {
         padding: 0 20px;
         font-size: 16px;
+    }
+    .projects-experience{
+        justify-content: space-evenly;
+    }
+    .projects-container{
+        width: 500px;
+    }
+    .container-experience{
+        width: 500px;
     }
 }
 
@@ -179,22 +229,11 @@
     .hero {
         left: 10%;
     }
-
     .container-title {
         max-width: 700px;
 
     }
-
     .container-title h1 {
         font-size: 35px;
     }
-
-
-}
-
-@media only screen and (min-width: 1430px) {
-    .hero {
-        left: 15%;
-    }
-
 }
