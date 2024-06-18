@@ -32,7 +32,6 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate mollitia culpa veritatis! Natus, sunt?</p>
           </div>
         </div>
-
       </div>
 
       <SplineScene/>
