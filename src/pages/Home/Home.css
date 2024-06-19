@@ -219,8 +219,45 @@
     width: 380px;
     height: 600px;
     background-color: rgb(8, 112, 116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
-
+.experience{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(115, 169, 33);
+    padding: 20px;
+    overflow-y: scroll;
+}
+.experience-item{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(60, 60, 182);
+    display: flex;
+    justify-content: center;
+}
+.contaner-box-experience{
+    width: 340px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    border-left: solid 3px black;
+    position: relative;
+}
+.contaner-box-experience img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: -20px;
+}
+.container-text-box-experience{
+    padding: 0 25px;
+}
 
 @media only screen and (min-width: 500px) {
     .profile-picture{
