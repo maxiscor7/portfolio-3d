@@ -46,20 +46,18 @@
     width: 130px;
     z-index: 101;
 }
-
-.container-social-links img {
-    height: 30px;
-    width: 30px;
-    object-fit: contain;
-    margin-right: 10px;
-}
+.container-social-links i {
+    transition: all 0.3s ease; /* Transición suave para los cambios */
+  }
+.container-social-links i:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al 120% */
+  }
 
 .profile-picture {
     width: 230px;
     object-fit: contain;
     opacity: 0.75;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
-    /* Aplica un degradado de máscara */
     filter: blur(0px) drop-shadow(0 4px 15px rgba(0, 0, 0, 0.5));
     position: relative;
     left: 20%;
@@ -122,48 +120,107 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 40px;
 }
 .projects-container{
     width: 380px;
     height: 600px;
-    background-color: cadetblue;
+    color: white;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: hidden;
+}
+.projects-container h2{
+    margin-bottom: 40px;
 }
 .projects{
     width: 100%;
     height: 100%;
-    background-color: chartreuse;
+    padding-bottom: 5px;
+    background-color: rgb(27, 28, 28);
     overflow-y: scroll;
 }
 .project-item{
     width: 100%;
-    height: 300px;
-    background-color: aqua;
+    height: 630px;
+    background-color: rgb(27, 27, 28);
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
+.container-box{
+    width: 340px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(53, 48, 48, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.container-box p{
+    padding: 15px 5px 0 5px;
+}
+
+.project-item img{
+    width: 100%;
+    object-fit: cover;
+}
+.container-buttons-project{
+    display: flex;
+}
+.button-projects{
+    background-color: #555;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.button-projects:hover{
+    background-color: #444;
+    cursor: pointer;
+}
+.projectClass, .button-projects a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Estilos para la barra de desplazamiento (solo para navegadores webkit) */
 .projects::-webkit-scrollbar {
-    width: 12px; /* Ancho de la barra de desplazamiento */
+    width: 18px; 
   }
   
   .projects::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color del track de la barra de desplazamiento */
+    background: #b6b3b3; 
   }
   
   .projects::-webkit-scrollbar-thumb {
-    background: #0d0ba7; /* Color del thumb de la barra de desplazamiento */
-    border-radius: 10px; /* Radio del thumb para hacerlo redondeado */
-  }
-  
-  .projects::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color del thumb cuando se pasa el mouse por encima */
+    background: #36363a; 
+    border-radius: 5px;
+    border: solid rgb(91, 89, 89) 2px; 
+}
+
+.projects::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
 .container-experience{
     width: 380px;
     height: 600px;
     background-color: rgb(8, 112, 116);
 }
+
 
 @media only screen and (min-width: 500px) {
     .profile-picture{
@@ -219,6 +276,9 @@
     }
     .projects-container{
         width: 500px;
+    }
+    .container-box{
+        width: 420px;
     }
     .container-experience{
         width: 500px;
