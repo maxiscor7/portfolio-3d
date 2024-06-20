@@ -53,12 +53,12 @@ const Home = () => {
         </div>
 
       </section>
-      <section class="projects-experience">
-        <div class="projects-container">
+      <section className="projects-experience">
+        <div className="projects-container">
           <h2>LATEST PROJECTS</h2>
-          <div class="projects">
+          <div className="projects">
 
-            <div class="project-item">
+            <div className="project-item">
               <div className='container-box'>
                 <h4>LEVEX SITE MAINTENANCE</h4>
                 <img src={levex} />
@@ -74,7 +74,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="project-item">
+            <div className="project-item">
               <div className='container-box'>
                 <h4>REAL STATE LANDING</h4>
                 <img src={realState} />
@@ -90,7 +90,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="project-item">
+            <div className="project-item">
               <div className='container-box'>
                 <h4>SITE MARIANO ACOSTA</h4>
                 <img src={marianoAcosta} />
@@ -110,7 +110,7 @@ const Home = () => {
         </div>
         <div className='container-experience'>
           <h2>EXPERIENCE</h2>
-          <div class="experience">
+          <div className="experience">
 
             <div className='experience-item item-height1'>
               <div className='contaner-box-experience'>
@@ -156,7 +156,15 @@ const Home = () => {
 
 
         </div>
+
+
+
       </section>
+
+      <section className='gallery3D-in-home'>
+       coming soon section gallery 3d
+      </section>
+      
     </>
   );
 }
