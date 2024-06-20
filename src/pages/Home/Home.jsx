@@ -112,7 +112,7 @@ const Home = () => {
           <h2>EXPERIENCE</h2>
           <div class="experience">
 
-            <div className='experience-item'>
+            <div className='experience-item item-height1'>
               <div className='contaner-box-experience'>
                 <img src={lvx} alt='icon levex' />
                 <div className='container-text-box-experience'>
@@ -124,11 +124,11 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='experience-item'>
+            <div className='experience-item item-height2'>
               <div className='contaner-box-experience'>
                 <img src={noCountry} alt='icon levex' />
                 <div className='container-text-box-experience'>
-                  <h4>Levex</h4>
+                  <h4>No Country</h4>
                   <p>Front-End Developer</p>
                   <p>Sept. 2022 - Sept. 2023</p>
                   <p>● Development of E-commerce, using agile methodologies (SCRUM).</p>
@@ -138,7 +138,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='experience-item'>
+            <div className='experience-item item-height3'>
               <div className='contaner-box-experience'>
                 <img src={henry} alt='icon levex' />
                 <div className='container-text-box-experience'>
