@@ -8,6 +8,7 @@ import marianoAcosta from '../../assets/marianoAcosta.png';
 import lvx from '../../assets/lvx.png';
 import noCountry from '../../assets/noCountry.png';
 import henry from '../../assets/henry.png';
+import mockoup from '../../assets/mockup.png';
 
 
 import { NavLink } from 'react-router-dom';
@@ -162,9 +163,16 @@ const Home = () => {
       </section>
 
       <section className='gallery3D-in-home'>
-       coming soon section gallery 3d
+        <div className='container-text-projects3d-in-home'>
+          <h2>INTERACT WITH MY DESIGNS</h2>
+          <p>In this section, you will find a collection of projects and animations created with Blender and Spline. Here, you can interact with various visual elements and discover the methods and techniques I used to design them. From modeling polygon by polygon to achieve the desired design, to implementing transitions and visual effects to create a smooth and engaging interaction.</p>
+          <div className='button-projects'>
+            <NavLink aria-current="page" to="/gallery3d" className="projectClass">3D Gallery</NavLink>
+          </div>
+        </div>
+        <img src={mockoup} alt='image of 3D projects' />
       </section>
-      
+
     </>
   );
 }
