@@ -1,161 +1,240 @@
 .container-projects-grid {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* Una columna para dispositivos móviles */
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  /* Limita el ancho máximo de la cuadrícula en móviles */
+}
+
+.project-card {
+  background-color: #ccc;
+  height: 150px;
+  transition: transform 0.3s ease;
+  display: flex;
+  position: relative; /* Necesario para el pseudo-elemento */
+  overflow: hidden; /* Asegura que el pseudo-elemento no se desborde */
+}
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit; /* Hereda la imagen de fondo */
+  filter: blur(10px) brightness(0.7); /* Aplica desenfoque y oscurecimiento */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0; /* Asegura que esté detrás del contenido */
+}
+
+.project-card:hover::before {
+  opacity: 1;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+
+.overlay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  position: relative; /* Asegura que los botones estén delante del pseudo-elemento */
+  z-index: 1; /* Coloca el overlay sobre el pseudo-elemento */
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .btn-projects-section {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100px;
+  background: radial-gradient(circle at top left, #7d17b0,#060229, #000000);
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.overlay .btn-projects-section:hover {
+  background: gray;
+}
+
+.project-card-1 {
+  background-image: url('../../assets/movile/weather3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-card-2 {
+  background-image: url('../../assets/movile/emc3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-card-3 {
+  background-image: url('../../assets/movile/levex3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-card-4 {
+  background-image: url('../../assets/movile/marianoAcosta3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.project-card-5 {
+  background-image: url('../../assets/movile/law3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.project-card-6 {
+  background-image: url('../../assets/movile/wolf3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* Ajustes para dispositivos con un ancho mínimo de 600px */
+@media (min-width: 600px) {
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Una columna para dispositivos móviles */
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
-    max-width: 450px; /* Limita el ancho máximo de la cuadrícula en móviles */
+    grid-template-columns: repeat(2, 1fr);
+    /* Dos columnas para dispositivos medianos */
+    max-width: 750px;
+    /* Ajusta el ancho máximo de la cuadrícula en medianos */
   }
-  
+
   .project-card {
-    background-color: #ccc; /* Color de fondo para visualizar los cuadros */
-    height: 150px; /* Altura por defecto de los cuadros */
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
+    height: 250px;
+    /* Altura específica para las tarjetas en dispositivos medianos */
   }
 
   .project-card-1 {
-    background-image: url('../../assets/movile/weather3.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('../../assets/tablet/weather2.png');
   }
 
   .project-card-2 {
-    background-image: url('../../assets/movile/emc3.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('../../assets/tablet/emc2.png');
   }
 
   .project-card-3 {
-    background-image: url('../../assets/movile/levex3.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('../../assets/tablet/levex2.png');
   }
 
   .project-card-4 {
-    background-image: url('../../assets/movile/marianoAcosta3.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
+    background-image: url('../../assets/tablet/marianoLogo2.png');
   }
 
   .project-card-5 {
-    background-image: url('../../assets/movile/law3.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background-image: url('../../assets/tablet/law2.png');
   }
 
   .project-card-6 {
-    background-image: url('../../assets/movile/wolf3.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-  }
-  
-  /* Ajustes para dispositivos con un ancho mínimo de 600px */
-  @media (min-width: 600px) {
-    .projects-grid {
-      grid-template-columns: repeat(2, 1fr); /* Dos columnas para dispositivos medianos */
-      max-width: 750px; /* Ajusta el ancho máximo de la cuadrícula en medianos */
-    }
-  
-    .project-card {
-      height: 250px; /* Altura específica para las tarjetas en dispositivos medianos */
-    }
-
-    .project-card-1 {
-      background-image: url('../../assets/tablet/weather2.png');
-    }
-  
-    .project-card-2 {
-      background-image: url('../../assets/tablet/emc2.png');
-    }
-  
-    .project-card-3 {
-      background-image: url('../../assets/tablet/levex2.png'); 
-    }
-  
-    .project-card-4 {
-      background-image: url('../../assets/tablet/marianoLogo2.png'); 
-    }
-  
-    .project-card-5 {
-      background-image: url('../../assets/tablet/law2.png');   
-    }
-  
-    .project-card-6 {
-      background-image: url('../../assets/tablet/wolf2.png');       
-    }
-    
-  }
-  
-  /* Ajustes para dispositivos con un ancho mínimo de 1050px */
-  @media (min-width: 1050px) {
-    .projects-grid {
-      grid-template-columns: repeat(5, 1fr); /* Cuatro columnas para dispositivos grandes */
-      min-width: 1050px;
-    }
-  
-    .project-card {
-      height: 200px; /* Permitir que la altura sea determinada por el contenido y el tamaño de la fila */
-    }
-  
-    .project-card-1 {
-      grid-column: span 2; /* Ocupa tres columnas */
-      grid-row: span 2; /* Ocupa dos filas */
-      background-image: url('../../assets/desktop/weather.png');
-      height: 420px;
-    }
-  
-    .project-card-2 {
-      grid-column: span 1; /* Ocupa una columna */
-      grid-row: span 1; /* Ocupa una fila */
-      background-image: url('../../assets/desktop/emc.png');
-
-    }
-  
-    .project-card-3 {
-      grid-column: span 2; /* Ocupa una columna */
-      grid-row: span 1; /* Ocupa tres filas */
-      background-image: url('../../assets/desktop/levexB.png');
-
-    }
-  
-    .project-card-4 {
-      grid-column: span 1; /* Ocupa una columna */
-      grid-row: span 1; /* Ocupa una fila */
-      background-image: url('../../assets/desktop/marianoLogo.png');
-
-    }
-  
-    .project-card-5 {
-      grid-column: span 2; /* Ocupa una columna */
-      grid-row: span 2; /* Ocupa una fila */
-      height: 420px;
-      background-image: url('../../assets/desktop/law.png');
-    }
-  
-    .project-card-6 {
-      grid-column: span 3; /* Ocupa dos columnas */
-      grid-row: span 1; /* Ocupa una fila */
-      background-image: url('../../assets/desktop/wolf.png');
-    }
+    background-image: url('../../assets/tablet/wolf2.png');
   }
 
+}
+
+/* Ajustes para dispositivos con un ancho mínimo de 1050px */
+@media (min-width: 1050px) {
+  .projects-grid {
+    grid-template-columns: repeat(5, 1fr);
+    /* Cuatro columnas para dispositivos grandes */
+    min-width: 1050px;
+  }
+
+  .project-card {
+    height: 200px;
+    /* Permitir que la altura sea determinada por el contenido y el tamaño de la fila */
+  }
+
+  .project-card-1 {
+    grid-column: span 2;
+    /* Ocupa tres columnas */
+    grid-row: span 2;
+    /* Ocupa dos filas */
+    background-image: url('../../assets/desktop/weather.png');
+    height: 420px;
+  }
+
+  .project-card-2 {
+    grid-column: span 1;
+    /* Ocupa una columna */
+    grid-row: span 1;
+    /* Ocupa una fila */
+    background-image: url('../../assets/desktop/emc.png');
+
+  }
+  .project-card-2 .overlay {
+    flex-direction: column;
+  }
+
+  .project-card-3 {
+    grid-column: span 2;
+    /* Ocupa una columna */
+    grid-row: span 1;
+    /* Ocupa tres filas */
+    background-image: url('../../assets/desktop/levexB.png');
+
+  }
+
+  .project-card-4 {
+    grid-column: span 1;
+    /* Ocupa una columna */
+    grid-row: span 1;
+    /* Ocupa una fila */
+    background-image: url('../../assets/desktop/marianoLogo.png');
+  }
+
+  .project-card-4 .overlay {
+    flex-direction: column;
+  }
+
+  .project-card-5 {
+    grid-column: span 2;
+    /* Ocupa una columna */
+    grid-row: span 2;
+    /* Ocupa una fila */
+    height: 420px;
+    background-image: url('../../assets/desktop/law.png');
+  }
+
+  .project-card-6 {
+    grid-column: span 3;
+    /* Ocupa dos columnas */
+    grid-row: span 1;
+    /* Ocupa una fila */
+    background-image: url('../../assets/desktop/wolf.png');
+  }
+}
