@@ -20,7 +20,7 @@ const Projects = () => {
             key={project.id}
             className={`project-card project-card-${project.id}`}>
             <div className="overlay">
-              <NavLink to={project.route1} className="btn-projects-section">Project</NavLink>
+              <NavLink to={project.route1} className="btn-projects-section">Case study</NavLink>
               <a to={project.route2} className="btn-projects-section">URL</a>
             </div>
           </div>

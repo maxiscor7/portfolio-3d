@@ -65,20 +65,21 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: white;
+  color: black;
   display: flex;
   margin: 5px;
   align-items: center;
   justify-content: center;
   height: 35px;
-  width: 100px;
-  background: radial-gradient(circle at top left, #7d17b0,#060229, #000000);
+  width: 120px;
+  background-color: #ccc;
   border-radius: 7px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
 }
 .overlay .btn-projects-section:hover {
-  background: gray;
+  background: rgb(68, 66, 66);
+  color: white;
 }
 
 .project-card-1 {
