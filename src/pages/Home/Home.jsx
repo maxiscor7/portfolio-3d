@@ -3,7 +3,7 @@ import SplineScene from '../../components/SplineHome/SplineScene';
 import './Home.css';
 import profile from '../../assets/profile.png';
 import levex from '../../assets/levex.png';
-import realState from '../../assets/realState.png';
+import law from '../../assets/law.png';
 import marianoAcosta from '../../assets/marianoAcosta.png';
 import lvx from '../../assets/lvx.png';
 import noCountry from '../../assets/noCountry.png';
@@ -78,7 +78,7 @@ const Home = () => {
             <div className="project-item">
               <div className='container-box'>
                 <h4>REAL STATE LANDING</h4>
-                <img src={realState} />
+                <img src={law} />
                 <p>Using Webflow, a project was created to develop a real estate website, incorporating 3D technology via Spline to offer a dynamic and attractive visual experience.</p>
                 <div className='container-buttons-project'>
                   <div className='button-projects'>
