@@ -14,6 +14,11 @@ const projects = [
 const Projects = () => {
   return (
     <div className='container-projects-grid'>
+      <div className='container-tit-text-projects'>
+        <h1>PROJECTS</h1>
+        <p>Here you will find a collection of works showcasing my skills and creativity in web development. Each project includes a detailed case study where I describe the process, technologies used, and challenges overcome. Additionally, you can explore the live applications and websites through the deployment links.</p>
+        <p> I hope you find my work interesting and inspiring!</p>
+      </div>
       <div className="projects-grid">
         {projects.map(project => (
           <div

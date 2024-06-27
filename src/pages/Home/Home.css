@@ -28,14 +28,14 @@
 .container-title h1 {
     padding: 0 10px;
     margin-bottom: 10px;
-    color: white;
+    color: #fff;
     font-size: 30px;
 }
 
 .container-title p {
     padding: 0 10px;
     font-size: 20px;
-    color: rgb(143, 138, 138);
+    color: rgb(185, 176, 176);
     margin-bottom: 15px;
 }
 
@@ -103,13 +103,13 @@
     padding: 0 10px;
     margin-bottom: 10px;
     font-size: 20px;
-    color: white;
+    color: #fff;
 }
 
 .cards-hero-container p {
     padding: 0 10px;
     font-size: 14px;
-    color: rgb(143, 138, 138);
+    color: rgb(185, 176, 176);
 
 }
 .projects-experience{
@@ -124,7 +124,7 @@
 .projects-container{
     width: 380px;
     height: 600px;
-    color: white;
+    color: #fff;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@
     width: 340px;
     padding: 10px;
     margin: 10px;
-    color: white;
+    color: #fff;
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
@@ -194,7 +194,7 @@
 }
 .projectClass, .button-projects a{
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 /* Estilos para la barra de desplazamiento (solo para navegadores webkit) */
@@ -218,7 +218,7 @@
 .container-experience{
     width: 380px;
     height: 600px;
-    color: white;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +249,7 @@
 }
 .contaner-box-experience{
     width: 340px;
-    color: white;
+    color: #fff;
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
@@ -272,10 +272,10 @@
     font-family: "Montserrat", sans-serif;
 }
 .container-text-projects3d-in-home h2{
-    color: white;
+    color: #fff;
 }
 .container-text-projects3d-in-home p{
-    color: rgb(143, 138, 138);
+    color: rgb(185, 176, 176);
 
 }
 .gallery3D-in-home img{

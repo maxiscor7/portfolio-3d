@@ -1,9 +1,26 @@
 .container-projects-grid {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.container-tit-text-projects{
+  width: 100%;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+.container-tit-text-projects h1{
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.container-tit-text-projects p{
+  font-size: 20px;
+  color: rgb(185, 176, 176);
+}
+
 
 .projects-grid {
   display: grid;
@@ -79,7 +96,7 @@
 }
 .overlay .btn-projects-section:hover {
   background: rgb(68, 66, 66);
-  color: white;
+  color: #fff;
 }
 
 .project-card-1 {
@@ -175,6 +192,12 @@
     min-width: 1050px;
   }
 
+  .container-tit-text-projects{
+    max-width: 1050px;
+  }
+  .container-tit-text-projects h1{
+    font-size: 35px;
+  }
   .project-card {
     height: 200px;
     /* Permitir que la altura sea determinada por el contenido y el tamaño de la fila */
