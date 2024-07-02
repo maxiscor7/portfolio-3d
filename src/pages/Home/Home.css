@@ -115,14 +115,21 @@
 .projects-experience{
     width: 100%;
     height: 100%;
-    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 40px;
 }
+
+.container-projects-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .projects-container{
-    width: 380px;
+    width: 360px;
     height: 600px;
     color: #fff;
     margin-bottom: 10px;
@@ -133,27 +140,28 @@
 }
 .projects-container h2{
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .projects{
-    width: 100%;
+    width: 300px;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 5px;
     background-color: rgb(27, 28, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow-y: scroll;
 }
 .project-item{
-    width: 100%;
     height: 630px;
-    background-color: rgb(27, 27, 28);
+
     margin-bottom: 10px;
     display: flex;
-    justify-content: center;
 }
 .container-box{
-    width: 340px;
-    padding: 10px;
-    margin: 10px;
+    width: 260px;
+    margin: 10px 0;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -161,18 +169,24 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
-    background: rgba(53, 48, 48, 0.2);
+    background-color: #36363a;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
 }
 .container-box p{
-    padding: 15px 5px 0 5px;
+    padding: 20px 10px 0 10px;
+    font-size: 14px;
 }
-
+.container-box h4{
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
 .project-item img{
-    width: 100%;
+    width: 260px;
     object-fit: cover;
 }
 .container-buttons-project{
@@ -189,7 +203,7 @@
     border-radius: 5px;
 }
 .button-projects:hover{
-    background-color: #444;
+    background-color: #0879cf;
     cursor: pointer;
 }
 .projectClass, .button-projects a{
@@ -213,28 +227,26 @@
 }
 
 .projects::-webkit-scrollbar-thumb:hover, .experience::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #0879cf; 
   }
 .container-experience{
     width: 380px;
-    height: 600px;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+}
+.container-experience h2{
+    margin-top: 40px;
 }
 .experience{
     width: 100%;
     height: 100%;
     margin-top: 30px;
-    background-color: rgb(27, 28, 28);
-    padding: 20px;
-    overflow-y: scroll;
+   
 }
 .experience-item{
     width: 100%;
-    background-color: rgb(27, 28, 28);
     display: flex;
     justify-content: center;
 }
@@ -245,7 +257,7 @@
     height: 400px;
 }
 .item-height3{
-    height: 470px;
+    height: 450px;
 }
 .contaner-box-experience{
     width: 340px;
@@ -253,7 +265,6 @@
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: rgb(27, 28, 28);
     border-left: solid 3px #36363a;
     position: relative;
 }
@@ -266,6 +277,32 @@
 .container-text-box-experience{
     padding: 0 25px;
 }
+.container-text-box-experience .charge-experience{
+    color: #0879cf;
+}
+
+.container-skills{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    width: 340px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-skills h2{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.container-a-skill h4{
+    color: #0879cf;
+}
+.container-a-skill li{
+    color: #fff;
+    margin: 10px 0;
+}
+
+
 .container-text-projects3d-in-home{
     padding: 20px 20px 0 20px;
     margin-top: 50px;
@@ -338,8 +375,23 @@
     .projects-container{
         width: 500px;
     }
+    .projects{
+        width: 500px;
+    }
+    .container-skills{
+        width: 500px;
+    }
     .container-box{
         width: 420px;
+    }
+    .container-box img{
+        width: 420px;
+    }
+    .container-box h4{
+        font-size: 20px;
+    }
+    .container-box p{
+        font-size: 15px;
     }
     .container-experience{
         width: 500px;
@@ -351,10 +403,10 @@
         height: 420px;
     }
     .item-height2{
-        height: 380px;
+        height: 360px;
     }
     .item-height3{
-        height: 390px;
+        height: 345px;
     }
     .gallery3D-in-home{
         display: flex;
@@ -369,6 +421,7 @@
     .gallery3D-in-home img{
         height: 450px;
     }
+    
 }
 
 @media only screen and (min-width: 1300px) {

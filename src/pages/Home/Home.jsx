@@ -54,61 +54,10 @@ const Home = () => {
         </div>
 
       </section>
+
+
       <section className="projects-experience">
-        <div className="projects-container">
-          <h2>LATEST PROJECTS</h2>
-          <div className="projects">
 
-            <div className="project-item">
-              <div className='container-box'>
-                <h4>LEVEX SITE MAINTENANCE</h4>
-                <img src={levex} />
-                <p>At Levex, a distributor of AVEVA software in Latin America, I am responsible for website maintenance. My tasks include creating new sections with updated information, adapting the website to design changes, developing internal tools for staff, and adapting the company's app for events.</p>
-                <div className='container-buttons-project'>
-                  <div className='button-projects'>
-                    <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
-                  </div>
-                  <div className='button-projects'>
-                    <a href="https://www.levexsa.com/" target="_blank" rel="noopener noreferrer">Site</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item">
-              <div className='container-box'>
-                <h4>REAL STATE LANDING</h4>
-                <img src={law} />
-                <p>Using Webflow, a project was created to develop a real estate website, incorporating 3D technology via Spline to offer a dynamic and attractive visual experience.</p>
-                <div className='container-buttons-project'>
-                  <div className='button-projects'>
-                    <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
-                  </div>
-                  <div className='button-projects'>
-                    <a href="https://maximilianos-real-estate-web.webflow.io/" target="_blank" rel="noopener noreferrer">Site</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item">
-              <div className='container-box'>
-                <h4>SITE MARIANO ACOSTA</h4>
-                <img src={marianoAcosta} />
-                <p>For the Mariano Acosta Social and Sports Club, an integral project was implemented that encompassed the adaptation of multiple disciplines, SEO optimization, and the design of an intuitive interface with creative graphics. This improved navigation and communication with the club's members.</p>
-                <div className='container-buttons-project'>
-                  <div className='button-projects'>
-                    <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
-                  </div>
-                  <div className='button-projects'>
-                    <a href="https://club-mariano-acosta.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
         <div className='container-experience'>
           <h2>EXPERIENCE</h2>
           <div className="experience">
@@ -118,7 +67,7 @@ const Home = () => {
                 <img src={lvx} alt='icon levex' />
                 <div className='container-text-box-experience'>
                   <h4>Levex</h4>
-                  <p>Front-End Developer</p>
+                  <p className='charge-experience'>Front-End Developer</p>
                   <p>Sept. 2023 - present</p>
                   <p>Responsible for the maintenance and continuous development of the company's website. Responsible for the strategic incorporation of content, as well as the efficient execution of periodic updates. I ensure optimal site performance by implementing the latest web practices and technologies, thereby contributing to improved online presence and user experience.</p>
                 </div>
@@ -130,7 +79,7 @@ const Home = () => {
                 <img src={noCountry} alt='icon levex' />
                 <div className='container-text-box-experience'>
                   <h4>No Country</h4>
-                  <p>Front-End Developer</p>
+                  <p className='charge-experience'>Front-End Developer</p>
                   <p>Sept. 2022 - Sept. 2023</p>
                   <p>● Development of E-commerce, using agile methodologies (SCRUM).</p>
                   <p>● Front-end development of the site, designing components, styling.</p>
@@ -144,7 +93,7 @@ const Home = () => {
                 <img src={henry} alt='icon levex' />
                 <div className='container-text-box-experience'>
                   <h4>Henry - Bootcamp</h4>
-                  <p>Full-Stack Developer</p>
+                  <p className='charge-experience'>Full-Stack Developer</p>
                   <p>May. 2022 - Sept. 2022</p>
                   <p>● Complete the bootcamp with (+800 hours). TECH SKILLS: ECMAScript 6, React, Redux, Node.js, Express.js, HTML, Algorithms and complexity analysis, Data structures, Sequelize, PostgreSQL, GIT.</p>
                   <p>● Develop the app for the client and server side using React, Redux, HTML, JavaScript, Tailwind, TypeScript, Node.js, Sequelize, PostgreSQL, BCrypt, JWT, among others.</p>
@@ -154,11 +103,109 @@ const Home = () => {
 
           </div>
 
+        </div>
+
+        <div className='container-projects-skills'>
+
+
+          <div className="projects-container">
+            <h2>LATEST PROJECTS</h2>
+            <div className="projects">
+
+              <div className="project-item">
+                <div className='container-box'>
+                  <h4>LEVEX SITE MAINTENANCE</h4>
+                  <img src={levex} />
+                  <p>At Levex, a distributor of AVEVA software in Latin America, I am responsible for website maintenance. My tasks include creating new sections with updated information, adapting the website to design changes, developing internal tools for staff, and adapting the company's app for events.</p>
+                  <div className='container-buttons-project'>
+                    <div className='button-projects'>
+                      <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
+                    </div>
+                    <div className='button-projects'>
+                      <a href="https://www.levexsa.com/" target="_blank" rel="noopener noreferrer">Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-item">
+                <div className='container-box'>
+                  <h4>REAL STATE LANDING</h4>
+                  <img src={law} />
+                  <p>Using Webflow, a project was created to develop a real estate website, incorporating 3D technology via Spline to offer a dynamic and attractive visual experience.</p>
+                  <div className='container-buttons-project'>
+                    <div className='button-projects'>
+                      <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
+                    </div>
+                    <div className='button-projects'>
+                      <a href="https://maximilianos-real-estate-web.webflow.io/" target="_blank" rel="noopener noreferrer">Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project-item">
+                <div className='container-box'>
+                  <h4>SITE MARIANO ACOSTA</h4>
+                  <img src={marianoAcosta} />
+                  <p>For the Mariano Acosta Social and Sports Club, an integral project was implemented that encompassed the adaptation of multiple disciplines, SEO optimization, and the design of an intuitive interface with creative graphics. This improved navigation and communication with the club's members.</p>
+                  <div className='container-buttons-project'>
+                    <div className='button-projects'>
+                      <NavLink aria-current="page" to="/projects" className="projectClass">Project</NavLink>
+                    </div>
+                    <div className='button-projects'>
+                      <a href="https://club-mariano-acosta.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='container-skills'>
+            <h2>SKILLS</h2>
+            <div className='container-skills-categories'>
+              <div className='container-a-skill'>
+                <h4>Frontend Development</h4>
+                <ul>
+                  <li><strong>Languages & Technologies:</strong> HTML, CSS, JavaScript</li>
+                  <li><strong>Frameworks & Libraries:</strong> React, Next.js, Bootstrap, Tailwind, Three.js, React Router DOM, Redux</li>
+                  <li><strong>Other Skills:</strong> Responsive Web Design, Saas, SEO</li>
+                </ul>
+              </div>
+              <div className='container-a-skill'>
+                <h4>Backend Development</h4>
+                <ul>
+                  <li><strong>Languages & Technologies:</strong> Node.js</li>
+                  <li><strong>Databases:</strong> PostgreSQL, Sequelize</li>
+                  <li><strong>Frameworks & Tools:</strong> Express, JWT</li>
+                </ul>
+              </div>
+              <div className='container-a-skill'>
+                <h4>Tools & Platforms</h4>
+                <ul>
+                  <li><strong>Development Tools:</strong> Git, GitHub, VS Code, Postman, Thunder Client</li>
+                  <li><strong>Design Tools:</strong> Figma, Canva, Spline, Blender</li>
+                  <li><strong>CMS & Builders:</strong> Webflow, WordPress, Helice</li>
+                  <li><strong>Testing:</strong> Jest</li>
+                  <li><strong>Analytics & Marketing:</strong> Google Analytics, Generating UTMs</li>
+                  <li><strong>Security & Performance:</strong> Cloudflare</li>
+                </ul>
+              </div>
+              <div className='container-a-skill'>
+                <h4>Other Skills</h4>
+                <ul>
+                  <li><strong>Soft Skills:</strong> English C2 level</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
 
         </div>
-
-
 
       </section>
 

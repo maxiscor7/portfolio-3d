@@ -95,7 +95,7 @@
   cursor: pointer;
 }
 .overlay .btn-projects-section:hover {
-  background: rgb(68, 66, 66);
+  background: #0879cf;
   color: #fff;
 }
 
