@@ -23,13 +23,13 @@ const Home = () => {
             <h1>CORNALBA MAXIMILIANO</h1>
             <p>Greetings! Explore my story, projects, and skills. Dive into my portfolio and discover more!</p>
             <div className='container-social-links'>
-              <a href="https://www.linkedin.com/in/enrique-maximiliano-cornalba-1a2429184/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin" style={{ fontSize: '30px', color: '#0e76a8', marginRight: '8px', }}></i>
+              <a href="https://www.linkedin.com/in/enrique-maximiliano-cornalba-1a2429184/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Enrique Maximiliano Cornalba">
+                <i className="fab fa-linkedin"  style={{ fontSize: '30px', color: '#0e76a8', marginRight: '8px', }}></i>
               </a>
-              <a href="https://github.com/maxiscor7" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/maxiscor7" target="_blank" rel="noopener noreferrer" aria-label="Github de Enrique Maximiliano Cornalba">
                 <i className="fab fa-github" style={{ fontSize: '30px', color: '#171515', marginRight: '8px', }}></i>
               </a>
-              <a href="https://www.instagram.com/cornalbamaxi/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/cornalbamaxi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Enrique Maximiliano Cornalba">
                 <i className="fab fa-instagram" style={{ fontSize: '30px', color: '#C13584', marginRight: '8px', }}></i>
               </a>
             </div>
@@ -64,7 +64,7 @@ const Home = () => {
 
             <div className='experience-item item-height1'>
               <div className='contaner-box-experience'>
-                <img src={lvx} alt='icon levex' />
+                <img src={lvx} alt='icon Levex' />
                 <div className='container-text-box-experience'>
                   <h4>Levex</h4>
                   <p className='charge-experience'>Front-End Developer</p>
@@ -76,7 +76,7 @@ const Home = () => {
 
             <div className='experience-item item-height2'>
               <div className='contaner-box-experience'>
-                <img src={noCountry} alt='icon levex' />
+                <img src={noCountry} alt='icon no country' />
                 <div className='container-text-box-experience'>
                   <h4>No Country</h4>
                   <p className='charge-experience'>Front-End Developer</p>
@@ -90,7 +90,7 @@ const Home = () => {
 
             <div className='experience-item item-height3'>
               <div className='contaner-box-experience'>
-                <img src={henry} alt='icon levex' />
+                <img src={henry} alt='icon Henry' />
                 <div className='container-text-box-experience'>
                   <h4>Henry - Bootcamp</h4>
                   <p className='charge-experience'>Full-Stack Developer</p>
@@ -115,7 +115,7 @@ const Home = () => {
               <div className="project-item">
                 <div className='container-box'>
                   <h4>LEVEX SITE MAINTENANCE</h4>
-                  <img src={levex} />
+                  <img src={levex} alt='image of the landing Levex' />
                   <p>At Levex, a distributor of AVEVA software in Latin America, I am responsible for website maintenance. My tasks include creating new sections with updated information, adapting the website to design changes, developing internal tools for staff, and adapting the company's app for events.</p>
                   <div className='container-buttons-project'>
                     <div className='button-projects'>
@@ -131,7 +131,7 @@ const Home = () => {
               <div className="project-item">
                 <div className='container-box'>
                   <h4>REAL STATE LANDING</h4>
-                  <img src={law} />
+                  <img src={law} alt='image of the landing real state'/>
                   <p>Using Webflow, a project was created to develop a real estate website, incorporating 3D technology via Spline to offer a dynamic and attractive visual experience.</p>
                   <div className='container-buttons-project'>
                     <div className='button-projects'>
@@ -147,7 +147,7 @@ const Home = () => {
               <div className="project-item">
                 <div className='container-box'>
                   <h4>SITE MARIANO ACOSTA</h4>
-                  <img src={marianoAcosta} />
+                  <img src={marianoAcosta} alt='image of the landing Mariano Acosta'/>
                   <p>For the Mariano Acosta Social and Sports Club, an integral project was implemented that encompassed the adaptation of multiple disciplines, SEO optimization, and the design of an intuitive interface with creative graphics. This improved navigation and communication with the club's members.</p>
                   <div className='container-buttons-project'>
                     <div className='button-projects'>
