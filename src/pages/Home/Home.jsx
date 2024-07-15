@@ -1,7 +1,7 @@
 import React from 'react';
 import SplineScene from '../../components/SplineHome/SplineScene';
 import './Home.css';
-import profile from '../../assets/profile.png';
+import profile2 from '../../assets/profile2.png';
 import levex from '../../assets/levex.png';
 import realstate from '../../assets/realstate.png';
 import marianoAcosta from '../../assets/marianoAcosta.png';
@@ -23,11 +23,11 @@ const Home = () => {
             <h1>CORNALBA MAXIMILIANO</h1>
             <p>Greetings! Explore my story, projects, and skills. Dive into my portfolio and discover more!</p>
             <div className='container-social-links'>
-              <a href="https://www.linkedin.com/in/enrique-maximiliano-cornalba-1a2429184/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Enrique Maximiliano Cornalba">
-                <i className="fab fa-linkedin"  style={{ fontSize: '30px', color: '#0e76a8', marginRight: '8px', }}></i>
+              <a href="https://www.linkedin.com/in/maximiliano-enrique-cornalba-1a2429184/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Enrique Maximiliano Cornalba">
+                <i className="fab fa-linkedin"  style={{ fontSize: '30px', color: '#0298e0', marginRight: '8px', }}></i>
               </a>
               <a href="https://github.com/maxiscor7" target="_blank" rel="noopener noreferrer" aria-label="Github de Enrique Maximiliano Cornalba">
-                <i className="fab fa-github" style={{ fontSize: '30px', color: '#171515', marginRight: '8px', }}></i>
+                <i className="fab fa-github" style={{ fontSize: '30px', color: '#ffffff', marginRight: '8px', }}></i>
               </a>
               <a href="https://www.instagram.com/cornalbamaxi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Enrique Maximiliano Cornalba">
                 <i className="fab fa-instagram" style={{ fontSize: '30px', color: '#C13584', marginRight: '8px', }}></i>
@@ -35,7 +35,7 @@ const Home = () => {
             </div>
           </div>
 
-          <img src={profile} alt='profile-picture' className='profile-picture' />
+          <img src={profile2} alt='profile-picture' className='profile-picture' />
 
           <div className='container-last-part-hero'>
             <div className='cards-hero-container'>
