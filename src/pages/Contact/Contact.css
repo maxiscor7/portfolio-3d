@@ -29,6 +29,12 @@
     width: 130px;
     z-index: 101;
 }
+.container-social-links-contact i {
+    transition: all 0.3s ease; /* Transición suave para los cambios */
+  }
+.container-social-links-contact i:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al 120% */
+  }
 
 
 .container-form-input label{
