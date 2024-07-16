@@ -12,6 +12,7 @@ import Law from './pages/Law/Law';
 import Wolf from './pages/Wolf/Wolf';
 import NavbrowserBst from './components/Navbrowser/NavbrowserBst';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer/Footer';
 function App() {
 
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path='/law' element={<Law/>}/>
         <Route path='/wolf-gym' element={<Wolf/>}/>
       </Routes>
+      <Footer/>
     </Router>
     </div>
   )

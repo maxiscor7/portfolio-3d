@@ -4,6 +4,21 @@
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+}
+.logoText{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.label2{
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
 
 #enlaces {
@@ -28,7 +43,7 @@
     .custom-navbar {
         background: rgba(25, 3, 65, 0.5);
     }
-
+    
     .navbar-toggler {
         border-color: rgba(255, 255, 255, 0.1) !important; /* Cambia el color del borde del botón del menú */
     }

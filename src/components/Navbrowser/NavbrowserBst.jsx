@@ -9,7 +9,12 @@ const NavBar = () => {
     return (
         <Navbar expand="lg" className="custom-navbar">
             <Container>
-                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="/">
+                    <div className='logoText'>
+                        <h3>E</h3><label>=</label><h3>MC</h3>
+                        <label className='label2'>2</label>
+                    </div>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto custom-nav">

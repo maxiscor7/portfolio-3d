@@ -20,7 +20,7 @@ const Home = () => {
       <section className='section-hero'>
         <div className='hero'>
           <div className='container-title'>
-            <h1>CORNALBA MAXIMILIANO</h1>
+            <h1>E. MAXIMILIANO CORNALBA</h1>
             <p>Greetings! Explore my story, projects, and skills. Dive into my portfolio and discover more!</p>
             <div className='container-social-links'>
               <a href="https://www.linkedin.com/in/maximiliano-enrique-cornalba-1a2429184/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Enrique Maximiliano Cornalba">

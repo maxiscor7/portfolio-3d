@@ -1,0 +1,33 @@
+.footer {
+    background-color: #060229;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #0879cf; /* Slight hover effect matching the gradient */
+}
