@@ -7,12 +7,12 @@ import './NavbrowserBst.css';
 
 const NavBar = () => {
     return (
-        <Navbar expand="lg" className="custom-navbar"> {/* Aplicar clase personalizada */}
+        <Navbar expand="lg" className="custom-navbar">
             <Container>
                 <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto"> {/* Mover los enlaces a la derecha */}
+                    <Nav className="ms-auto custom-nav">
                         <NavLink id='enlaces' aria-current="page" to="/" >Home</NavLink>
                         <NavLink id='enlaces' aria-current="page" to="/projects" >Projects</NavLink>
                         <NavLink id='enlaces' aria-current="page" to="/gallery3d" >3D Gallery</NavLink>

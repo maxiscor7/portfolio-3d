@@ -1,20 +1,55 @@
 .custom-navbar {
-    background: rgba(255, 255, 255, 0.2); /* Fondo con opacidad */
-    backdrop-filter: blur(10px); /* Efecto de blur */
-    -webkit-backdrop-filter: blur(10px); /* Efecto de blur para Safari */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Línea de separación */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#enlaces{
+#enlaces {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    padding: 10px 0;
+    display: block;
 }
 
 #enlaces:hover {
-    color: #0879cf !important; /* Color blanco claro al pasar el mouse */
+    color: #0879cf !important;
 }
-.active{
+
+.active {
     font-weight: bolder;
+}
+
+
+
+@media (max-width: 991px) {
+    .custom-navbar {
+        background: rgba(25, 3, 65, 0.5);
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1) !important; /* Cambia el color del borde del botón del menú */
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+
+    .custom-nav {
+        padding: 10px 0;
+    }
+
+    #enlaces {
+        color: white;
+        text-align: center;
+        border: solid 2px white;
+        border-radius: 10px;
+        margin:  5px 0;
+    }
+
+    #enlaces:hover {
+        color: #0879cf !important;
+    }
 }
