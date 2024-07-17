@@ -1,0 +1,127 @@
+.container-weather-case-study {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.developed-links{
+    padding: 0 10px;
+}
+.developed-links label{
+    color: #fff;
+}
+.developed-links label:hover{
+    color: #0879cf;
+    cursor: pointer;
+}
+.container-devloped-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.first-weather-text-container h1 {
+    color: #fff;
+}
+
+.first-weather-text-container p {
+    color: rgb(185, 176, 176);
+}
+
+.section-devices {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-devices img {
+    height: 220px;
+    max-height: 500px;
+}
+
+.goals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.item-inside-goals{
+    min-width: 350px;
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px rgb(185, 176, 176);
+    border-radius: 10px;
+}
+
+.goals h4{
+    color: #fff;
+}
+.goals li{
+    color: rgb(185, 176, 176);
+}
+
+.section-api{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-api h4{
+    font-weight: bold;
+}
+.item-inside-section-api{
+    max-width: 1250px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.section-api img{
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 800px) {
+   
+    .section-devices {
+        height: 350px;       
+    }
+    
+    .section-devices img {
+        height: 350px; 
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .first-weather-text-container {
+        padding: 40px;
+    }
+    .first-weather-text-container h1 {
+        
+        padding-left: 30px;
+    }
+    .first-weather-text-container p {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .section-devices {
+        height: 450px;    
+        margin-top: -20px;
+    }
+    
+    .section-devices img {
+        height: 450px; 
+    }
+    .item-inside-goals{
+        height: 300px;
+    }
+    
+}

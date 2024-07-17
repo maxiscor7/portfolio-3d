@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'; // Asegúrate de crear y ajustar este archivo CSS
+import './Projects.css';
 import { NavLink } from 'react-router-dom';
 
 const projects = [
