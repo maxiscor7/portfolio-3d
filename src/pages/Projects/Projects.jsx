@@ -26,7 +26,7 @@ const Projects = () => {
             className={`project-card project-card-${project.id}`}>
             <div className="overlay">
               <NavLink to={project.route1} className="btn-projects-section">Case study</NavLink>
-              <a to={project.route2} className="btn-projects-section">URL</a>
+              <a href={project.route2} target="_blank" rel="noopener noreferrer" aria-label="link to weather app url" className="btn-projects-section">URL</a>
             </div>
           </div>
         ))}
