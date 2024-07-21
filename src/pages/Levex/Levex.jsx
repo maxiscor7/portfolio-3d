@@ -1,6 +1,9 @@
 import React from 'react'
 import levexdevices from '../../assets/levex_devices.png'
+import heliceLevex from '../../assets/heliceLevex.png'
 import './Levex.css'
+import SliderLevex from '../../components/SliderLevex/SliderLevex'
+
 
 
 const Levex = () => {
@@ -165,11 +168,31 @@ const Levex = () => {
       </div>
 
       <div className='third-levex-text-container'>
-        <h2>FAMILY TYPOGRAPHICAL</h2>
+        <h2>FONT FAMILY</h2>
         <h1>ROBOTO</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque vero cumque beatae, vel dolore, vitae nihil aliquid excepturi quae minima deleniti ea illo. Aut neque architecto voluptas harum fuga quo alias fugit expedita animi natus tenetur, velit reiciendis, magnam quasi!</p>
         <p>0 1 2 3 4 5 6 7 8 9 +=-</p>
-        
+
+      </div>
+      <div className='forth-levex-text-container'>
+        <h2>VISUAL STYLE AND APPLICATION EXAMPLES</h2>
+      </div>
+      <SliderLevex />
+
+      <div className='second-levex-text-container'>
+        <h2>ADAPTATION TO THE HELICE PLATFORM</h2>
+        <p>The adaptation to the Helice platform has been essential for Levex, where we have hosted both our website and our app. This platform has facilitated faster and more efficient content loading than conventional methods.</p>
+        <p>We have developed an application that not only provides valuable information but also monitors our technological events. Thanks to the integration of QR code readers and the generation of credentials for our guests, we have optimized the management and access to these events.</p>
+        <p>Additionally, the platform has allowed us to conduct surveys that have provided us with crucial data about our customers. This data has revealed areas of improvement and new sales opportunities, helping us adjust our strategies effectively.</p>
+        <div className='container-img-helice'>
+          <img src={heliceLevex} alt='image of platform levex'/>
+        </div>
+      </div>
+
+      <div className='second-levex-text-container'>
+        <h2>IN CONCLUSION</h2>
+        <p>Working on the development of the Levex website and app has been a highly enriching and rewarding experience. Adapting to the Helice platform allowed us to optimize content loading and improve the management of our technological events.</p>
+        <p>This experience has not only strengthened my technical and management skills, but has also demonstrated the positive impact that a well-implemented solution can have on the success of a company. I am proud of the achievements we have made and how we have improved Levex's digital presence and efficiency.</p>
       </div>
     </div>
   )

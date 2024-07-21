@@ -2,7 +2,7 @@
     font-family: "Montserrat", sans-serif;
     padding: 10px;
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     flex-direction: column;
 }
@@ -15,13 +15,16 @@
     cursor: pointer;
 }
 
-.first-levex-text-container, .second-levex-text-container, .third-levex-text-container{
+.first-levex-text-container, .second-levex-text-container, .third-levex-text-container, .forth-levex-text-container{
     padding: 20px;
 }
 
-.first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2 {
+.first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2, .forth-levex-text-container h2 {
     color: #fff;
 }
+
+
+
 
 .third-levex-text-container h1 {
     color: #0879cf;
@@ -133,6 +136,17 @@
     background-color: #BCC9C5;
 }
 
+.container-img-helice{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-img-helice img{
+   max-width: 450px;
+   object-fit: contain;
+}
+
 @media only screen and (min-width: 800px) {
    
     .section-devices {
@@ -142,6 +156,10 @@
     .section-devices img {
         height: 350px; 
     }
+
+    .container-img-helice img{
+        max-width: 600px;  
+     }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -167,10 +185,16 @@
         height: 450px; 
     }
     .item-inside-goals-levex{
-        height: 430px;
+        height: 470px;
     }
     .section-divide-banner{
         min-height: 300px;
     }
-    
+    .forth-levex-text-container h2{
+        padding-left: 50px;
+        margin-bottom: 50px;
+    }
+    .container-img-helice img{
+        max-width: 900px;
+     }
 }

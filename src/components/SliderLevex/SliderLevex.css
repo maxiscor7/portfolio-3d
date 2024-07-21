@@ -1,0 +1,27 @@
+.visual-style-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.visual-style-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel, .carousel-inner, .carousel-item, .carousel-item img {
+  height: 350px; /* Ajusta esta altura según tus necesidades */
+}
+
+.carousel-item img {
+  object-fit: contain; /* Asegura que las imágenes se recorten para llenar el espacio disponible */
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+
+  .carousel, .carousel-inner, .carousel-item, .carousel-item img {
+    height: 500px; /* Ajusta esta altura según tus necesidades */
+  }
+}
