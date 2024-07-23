@@ -46,7 +46,6 @@
 
 .goals{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
@@ -56,7 +55,6 @@
     max-width: 600px;
     margin: 10px;
     padding: 10px;
-    border: solid 2px rgb(185, 176, 176);
     border-radius: 10px;
 }
 
@@ -120,8 +118,6 @@
     .section-devices img {
         height: 450px; 
     }
-    .item-inside-goals{
-        height: 300px;
-    }
+    
     
 }
