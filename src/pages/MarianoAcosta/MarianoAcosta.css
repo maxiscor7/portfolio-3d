@@ -1,0 +1,60 @@
+.container-mariano-case-study {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-mariano-text-container{
+    padding: 20px;
+}
+
+.first-mariano-text-container h1 {
+    color: #fff;
+}
+.first-mariano-text-container p {
+    color: rgb(185, 176, 176);
+}
+
+.goals-mariano{
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.item-inside-goals-mariano{
+    min-width: 350px;
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.goals-mariano h4{
+    color: #fff;
+}
+.goals-mariano li{
+    color: rgb(185, 176, 176);
+}
+
+.conatiner-tittle-comments{
+    margin-bottom: 40px;
+}
+
+.second-mariano-text-container{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.container-section-comments-profiles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
