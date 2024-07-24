@@ -58,3 +58,25 @@
     align-items: center;
     justify-content: center;
 }
+
+.container-metrics-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .first-mariano-text-container {
+        padding: 40px;
+    }
+    .first-mariano-text-container h1 {
+        padding-left: 30px;
+    }
+    .first-mariano-text-container p {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    
+}

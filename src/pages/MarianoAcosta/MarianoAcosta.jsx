@@ -4,6 +4,7 @@ import './MarianoAcosta.css'
 import CardProfile from '../../components/CardProfile/CardProfile'
 import profile1 from '../../assets/profileComment1.jpg'
 import profile2 from '../../assets/profileComment2.png'
+import PerformanceMetric from '../../components/PerformanceMetric/PerformanceMetric'
 
 
 const MarianoAcosta = () => {
@@ -70,22 +71,32 @@ const MarianoAcosta = () => {
           </ul>
         </div>
       </div>
+      <div className='second-mariano-text-container'>
+          <h2>PERFORMANCE AND SEO EVALUATION</h2>
+        </div>
+      <div className='container-metrics-section'>
+        <PerformanceMetric label="Rendimiento" score={92} color="#4caf50" />
+        <PerformanceMetric label="Accesibilidad" score={89} color="#ff9800" />
+        <PerformanceMetric label="Prácticas recomendadas" score={96} color="#4caf50" />
+        <PerformanceMetric label="SEO" score={100} color="#4caf50" />
+      </div>
+
       <div className='conatiner-tittle-comments'>
         <div className='second-mariano-text-container'>
-          <h2>VISUAL STYLE AND APPLICATION EXAMPLES</h2>
+          <h2>COMMENTS FROM CLUB MEMBERS</h2>
         </div>
         <div className='container-section-comments-profiles'>
 
           <CardProfile
             image={profile1}
-            name="Rodrigo G. Villalba"
+            name="Sergio G. Garcia"
             position="Vice president"
             comment="“Hiring Maximiliano has been the best decision the club could have made. Since his arrival, we have noticed a significant improvement in communication with partners. The new web platform allows us to be aware of the club's schedules, events and news quickly and efficiently. In addition, the quality of the design has attracted new partners interested in our activities.”"
 
           />
           <CardProfile
             image={profile2}
-            name="Martín A. Calderón"
+            name="Martín B. Romero"
             position="Account Review Commission"
             comment="“Maximiliano has completely transformed our internal and external communication. Their ability to develop a cost-effective and effective solution has been invaluable to us. The integration of free services and the improvement in the quality of images and visual content have raised the perception of the club. We are extremely satisfied with their work and the results obtained.”"
 

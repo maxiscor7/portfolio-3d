@@ -1,0 +1,22 @@
+.profile-metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .profile-circle {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .profile-label {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ffffff;
+  }
