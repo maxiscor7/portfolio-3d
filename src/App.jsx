@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import Gallery3d from './pages/Gallery3d/Gallery3d';
@@ -30,7 +30,7 @@ function App() {
         <Route path='/emc' element={<Emc/>}/>
         <Route path='/levex' element={<Levex/>}/>
         <Route path='/mariano-acosta' element={<MarianoAcosta/>}/>
-        <Route path='/law' element={<Law/>}/>
+        <Route path='/real-state' element={<Law/>}/>
         <Route path='/wolf-gym' element={<Wolf/>}/>
       </Routes>
       <Footer/>

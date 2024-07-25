@@ -7,7 +7,7 @@ const projects = [
   { id: 2, route1: '/emc', route2: 'https://portfolio-3d-three.vercel.app/' },
   { id: 3, route1: '/levex', route2: 'https://www.levexsa.com/' },
   { id: 4, route1: '/mariano-acosta', route2: 'https://club-mariano-acosta.vercel.app/' },
-  { id: 5, route1: '/law', route2: 'https://maximilianos-supercool-site-4a2b96.webflow.io/' },
+  { id: 5, route1: '/real-state', route2: 'https://maximilianos-supercool-site-4a2b96.webflow.io/' },
   { id: 6, route1: '/wolf-gym', route2: 'https://gym-spa-maxi.vercel.app/' }
 ];
 
