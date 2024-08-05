@@ -2,6 +2,24 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 import './Ironman3d.css';
+import SliderLevex from '../../components/SliderLevex/SliderLevex'
+import slider1 from '../../assets/slider-ironman1.jpeg'
+import slider2 from '../../assets/slider-ironman2.jpeg'
+import slider3 from '../../assets/slider-ironman3.jpeg'
+import slider4 from '../../assets/slider-ironman4.jpeg'
+import slider5 from '../../assets/slider-ironman5.jpeg'
+import slider6 from '../../assets/slider-ironman6.jpeg'
+import slider7 from '../../assets/slider-ironman7.png'
+
+const images = [
+  { src: slider1, alt: 'Primera imagen' },
+  { src: slider2, alt: 'Segunda imagen' },
+  { src: slider3, alt: 'Tercera imagen' },
+  { src: slider4, alt: 'Cuarta imagen' },
+  { src: slider5, alt: 'Quinta imagen' },
+  { src: slider6, alt: 'Sexta imagen' },
+  { src: slider7, alt: 'Septima imagen' },
+];
 
 
 const Ironman3d = () => {
@@ -83,6 +101,17 @@ const Ironman3d = () => {
                     </div>
                 </div>
             </div>
+
+
+            <div className='first-levex-text-container'>
+                <h1>CHALLENGES</h1>
+                <p>When I tried to use this model on my website, I found that the way I had generated the textures was not the most suitable. There is a specific workflow that needs to be followed to bake these textures, which is essential for correctly visualizing them with other technologies, such as in this case, using React.js along with Three.js, Drei, and Fiber. Due to this, the images shown below may not exactly match the rendered 3D model.</p>
+                <p>Working with different materials, models, and types of user interaction presents a wide range of possibilities. Blender offers an almost infinite universe of options, from creating 3D models for 3D printing—allowing ideas that once only existed in the digital realm to become tangible—to producing movies with high-quality CGI effects.</p>
+
+            </div>
+
+            <SliderLevex images={images}  />
+
         </div>
     );
 }

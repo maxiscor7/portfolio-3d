@@ -3,7 +3,17 @@ import levexdevices from '../../assets/levex_devices.png'
 import heliceLevex from '../../assets/heliceLevex.png'
 import './Levex.css'
 import SliderLevex from '../../components/SliderLevex/SliderLevex'
+import sliderLevex1 from '../../assets/sliderLevex1.png'
+import sliderLevex2 from '../../assets/sliderLevex2.png'
+import sliderLevex3 from '../../assets/sliderLevex3.png'
+import sliderLevex4 from '../../assets/sliderLevex4.png'
 
+const images = [
+  { src: sliderLevex1, alt: 'Primera imagen' },
+  { src: sliderLevex2, alt: 'Segunda imagen' },
+  { src: sliderLevex3, alt: 'Tercera imagen' },
+  { src: sliderLevex4, alt: 'Cuarta imagen' }
+];
 
 
 const Levex = () => {
@@ -178,7 +188,7 @@ const Levex = () => {
       <div className='forth-levex-text-container'>
         <h2>VISUAL STYLE AND APPLICATION EXAMPLES</h2>
       </div>
-      <SliderLevex />
+      <SliderLevex images={images}  />
 
       <div className='second-levex-text-container'>
         <h2>ADAPTATION TO THE HELICE PLATFORM</h2>
