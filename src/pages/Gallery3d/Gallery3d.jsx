@@ -26,7 +26,6 @@ const Gallery3d = () => {
                 Interact in 3D and discover how it was achieved.
               </p>
               <span className="see-more more1">
-                <NavLink to="/ironman3d" className="navlinks-gallery3d"  >See More</NavLink>
                 <a href='/ironman3d'>see more</a>
                 </span>
             </div>
