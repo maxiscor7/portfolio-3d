@@ -1,0 +1,99 @@
+.container-firstpart-sectionironman3d {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/background-ironman.jpeg');
+    background-size: cover;
+    /* Opcional: ajusta el tamaño de la imagen para cubrir el fondo */
+    background-repeat: no-repeat;
+    /* Opcional: evita que la imagen se repita */
+    background-position: center;
+    flex-direction: column;
+}
+
+.container-mouse-indications{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 700px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.container-icon-mouse-click{
+    display: flex;
+    width: 100px;
+    height: 130px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-icon-mouse-click label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mouse-design{
+    height: 62px;
+    width: 40px;
+    background-color: #292828;
+    display: flex;
+    border: solid 1px rgb(91, 90, 90);
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+.click-left{
+    height: 24px;
+    width: 20px;
+    border-bottom: 1px solid rgb(91, 90, 90);
+    border-right: 1px solid rgb(91, 90, 90);
+
+}
+.click-right{
+    height: 24px;
+    width: 20px;
+    background-color: #292828;
+    border-bottom: 1px solid rgb(91, 90, 90);
+    border-left: 1px solid rgb(91, 90, 90);
+}
+.click-scroll{
+    height: 10px;
+    width: 6px;
+    border: solid 1px rgb(91, 90, 90);
+    position: absolute;
+    left: 16px;
+    top: 5px;
+    border-radius: 10px;
+}
+
+.container-orbital {
+    width: 700px;
+    border: solid 2px #fff;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.container-canva-helmet3d Canvas {
+    height: 600px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 723px) {
+    .container-orbital{
+        width: 300px;
+    }
+    .container-canva-helmet3d Canvas {
+        height: 350px;
+        width: 100%;
+    }
+    .container-mouse-indications{
+        width: 300px;
+    }
+    
+}

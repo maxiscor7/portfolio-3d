@@ -13,6 +13,7 @@ import Wolf from './pages/Wolf/Wolf';
 import NavbrowserBst from './components/Navbrowser/NavbrowserBst';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
+import Ironman3d from './pages/Ironman3d/Ironman3d';
 function App() {
 
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path='/mariano-acosta' element={<MarianoAcosta/>}/>
         <Route path='/real-state' element={<Law/>}/>
         <Route path='/wolf-gym' element={<Wolf/>}/>
+        <Route path='/ironman3d' element={<Ironman3d/>}/>
       </Routes>
       <Footer/>
     </Router>

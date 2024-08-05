@@ -130,11 +130,23 @@
 }
 .content-box .more1, .content-box .more3{
     background: #7a0000;
-
 }
-.content-box .more2, .content-box .more4{
-    background: #1f1f1f;
+.content-box .more1 .navlinks-gallery3d:hover, .content-box .more3 .navlinks-gallery3d:hover{
+    color: #7a0000;
+}
+.content-box .more2 .navlinks-gallery3d:hover, .content-box .more4 .navlinks-gallery3d:hover {
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
 
+
+.content-box .more2, .content-box .more4{
+    background: #1f1f1f;  
+}
+
+.navlinks-gallery3d{
+    text-decoration: none;
+    color: #fff;
 }
 
 .content-box .see-more:hover{

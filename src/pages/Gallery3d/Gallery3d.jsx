@@ -1,6 +1,8 @@
 import React from 'react'
 import blender from '../../assets/blender.png'
 import spline from '../../assets/spline.png'
+import { NavLink } from 'react-router-dom';
+
 import './Gallery3d.css';
 
 
@@ -23,7 +25,9 @@ const Gallery3d = () => {
               <p className="card-content content1">
                 Interact in 3D and discover how it was achieved.
               </p>
-              <span className="see-more more1">See More</span>
+              <span className="see-more more1">
+                <NavLink to="/ironman3d" className="navlinks-gallery3d"  >See More</NavLink>
+                </span>
             </div>
 
             <div className="date-box dbox1">
