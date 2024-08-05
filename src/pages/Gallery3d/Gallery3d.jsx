@@ -27,6 +27,7 @@ const Gallery3d = () => {
               </p>
               <span className="see-more more1">
                 <NavLink to="/ironman3d" className="navlinks-gallery3d"  >See More</NavLink>
+                <a href='/ironman3d'>see more</a>
                 </span>
             </div>
 
