@@ -14,6 +14,9 @@ import NavbrowserBst from './components/Navbrowser/NavbrowserBst';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
 import Ironman3d from './pages/Ironman3d/Ironman3d';
+import Keyboard from './pages/Keyboard/Keyboard';
+import ReactorIronman from './pages/ReactorIronman/ReactorIronman';
+
 function App() {
 
   return (
@@ -34,6 +37,8 @@ function App() {
         <Route path='/real-state' element={<Law/>}/>
         <Route path='/wolf-gym' element={<Wolf/>}/>
         <Route path='/ironman3d' element={<Ironman3d/>}/>
+        <Route path='/keyboard' element={<Keyboard/>}/>
+        <Route path='/reactor-ironman' element={<ReactorIronman/>}/>
       </Routes>
       <Footer/>
     </Router>
