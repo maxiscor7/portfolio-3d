@@ -22,7 +22,7 @@ const Footer = () => {
 
                 <a href="https://github.com/maxiscor7" target="_blank" rel="noopener noreferrer" aria-label="Github de Enrique Maximiliano Cornalba" className="footer-link">GitHub</a>
 
-                <a href="mailto:enrique.cornalba@hotmail.com" className="footer-link">Contact</a>
+                <a href="mailto:maximiliano.cornalba@gmail.com" className="footer-link">Contact</a>
             </div>
         </footer>
     );
