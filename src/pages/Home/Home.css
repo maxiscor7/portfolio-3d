@@ -45,6 +45,7 @@
     position: relative;
     width: 130px;
     z-index: 101;
+    
 }
 .container-social-links i {
     transition: all 0.3s ease; /* Transición suave para los cambios */
