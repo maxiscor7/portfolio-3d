@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import emc from '../../assets/emc-bk.png'
 import { NavLink } from 'react-router-dom';
 import './NavbrowserBst.css';
 
@@ -11,8 +12,7 @@ const NavBar = () => {
             <Container>
                 <Navbar.Brand href="/">
                     <div className='logoText'>
-                        <h3>E</h3><label>=</label><h3>MC</h3>
-                        <label className='label2'>2</label>
+                        <img src={emc} alt='logo'/>
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

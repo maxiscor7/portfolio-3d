@@ -15,6 +15,9 @@
     margin-top: 10px;
     position: relative;
 }
+.logoText img{
+    height: 60px;
+}
 .label2{
     position: absolute;
     right: -10px;
