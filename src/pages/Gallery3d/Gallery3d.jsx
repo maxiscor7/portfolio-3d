@@ -25,9 +25,7 @@ const Gallery3d = () => {
               <p className="card-content content1">
                 Interact in 3D and discover how it was achieved.
               </p>
-              <span className="see-more more1">
-                <a className='link-in-gallery-3d' href='/ironman3d'>see more</a>
-              </span>
+                <a className="see-more more1" href='/ironman3d'>see more</a>
             </div>
 
             <div className="date-box dbox1">
@@ -63,9 +61,7 @@ const Gallery3d = () => {
               <p className="card-content content3">
                 Interact in 3D and discover how it was achieved.
               </p>
-              <span className="see-more more3">
-                <NavLink className='link-in-gallery-3d' aria-current="page" to="/reactor-ironman">See more</NavLink>
-              </span>
+                <NavLink className="see-more more3" aria-current="page" to="/reactor-ironman">See more</NavLink>
             </div>
 
             <div className="date-box dbox3">
@@ -83,9 +79,7 @@ const Gallery3d = () => {
               <p className="card-content content4">
                 Interact in 3D and discover how it was achieved.
               </p>
-              <span className="see-more more4">
-                <NavLink aria-current="page" to="/keyboard" className='link-in-gallery-3d'>See more</NavLink>
-              </span>
+                <NavLink aria-current="page" to="/keyboard" className="see-more more4">See more</NavLink>
             </div>
 
             <div className="date-box dbox4">
