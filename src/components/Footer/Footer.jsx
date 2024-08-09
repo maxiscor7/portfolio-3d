@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className='Copyright'>
-                <label>© 2024 Maximiliano Cornalba</label>
+                <label>© 2024 E. Maximiliano Cornalba</label>
             </div>
             <div className='sections-nav'>
                 <NavLink id='enlaces-footer' aria-current="page" to="/" >Home</NavLink>

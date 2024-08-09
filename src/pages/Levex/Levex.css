@@ -2,7 +2,6 @@
     font-family: "Montserrat", sans-serif;
     padding: 10px;
     display: flex;
-    
     justify-content: center;
     flex-direction: column;
 }
@@ -15,27 +14,34 @@
     cursor: pointer;
 }
 
-.first-levex-text-container, .second-levex-text-container, .third-levex-text-container, .forth-levex-text-container{
+.first-levex-text-container, .second-levex-text-container, .third-levex-text-container, .forth-levex-text-container, .new-levex-text-container{
     padding: 20px;
 }
+.first-levex-text-container h4{
+    color: #0879cf;
+    font-weight: bold;
+}
 
-.first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2, .forth-levex-text-container h2 {
+.first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2, .forth-levex-text-container h2, .new-levex-text-container h2{
     color: #fff;
 }
 
 
 
 
-.third-levex-text-container h1 {
+.third-levex-text-container h1, .new-levex-text-container h1 {
     color: #0879cf;
-    font-size: 80px;
+    font-size: 60px;
 }
 
-.first-levex-text-container p, .second-levex-text-container p, .third-levex-text-container p {
+.first-levex-text-container p, .second-levex-text-container p, .third-levex-text-container p, .new-levex-text-container p {
     color: rgb(185, 176, 176);
 }
 .third-levex-text-container {
     font-family: "Roboto", sans-serif;
+}
+.new-levex-text-container {
+    font-family: "Montserrat", sans-serif;
 }
 
 .section-devices {
@@ -102,7 +108,7 @@
     font-size: 10px;
     color: #fff;
 }
-.color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10, .color11, .color12, .color13, .color14{
+.color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10, .color11, .color12, .color13, .color14, .color15, .color16, .color17, .color18{
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -150,6 +156,20 @@
 .color14{
     background-color: #4a4a4a;
 }
+.color15{
+    background-color: #fff;
+    
+}
+.color16{
+    background-color: rgb(185, 176, 176);
+}
+.color17{
+    background-color: #060229;
+    border: solid 2px #fff;
+}
+.color18{
+    background-color: #0879cf;
+}
 
 .container-img-helice{
     margin-top: 60px;
@@ -178,13 +198,13 @@
 }
 
 @media only screen and (min-width: 1300px) {
-    .first-levex-text-container, .second-levex-text-container, .third-levex-text-container {
+    .first-levex-text-container, .second-levex-text-container, .third-levex-text-container, .new-levex-text-container {
         padding: 40px;
     }
-    .first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2, .third-levex-text-container h1 {
+    .first-levex-text-container h1, .second-levex-text-container h2, .third-levex-text-container h2, .third-levex-text-container h1, .new-levex-text-container h1, .new-levex-text-container h2 {
         padding-left: 30px;
     }
-    .first-levex-text-container p, .second-levex-text-container p, .third-levex-text-container p {
+    .first-levex-text-container p, .second-levex-text-container p, .third-levex-text-container p, .new-levex-text-container p {
         font-size: 20px;
         padding-left: 30px;
     }
@@ -210,4 +230,10 @@
     .container-img-helice img{
         max-width: 900px;
      }
+     .third-levex-text-container h1, .new-levex-text-container h1 {
+        font-size: 80px;
+    }
+    .first-levex-text-container h4{
+        padding-left: 28px;
+    }
 }
