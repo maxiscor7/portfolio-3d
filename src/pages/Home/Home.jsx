@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SplineScene from '../../components/SplineHome/SplineScene';
 import './Home.css';
-import profile2 from '../../assets/profile2.png';
+import newProfile from '../../assets/newProfile.png';
 import levex from '../../assets/levex.png';
 import realstate from '../../assets/realstate.png';
 import marianoAcosta from '../../assets/marianoAcosta.png';
@@ -50,7 +50,7 @@ const Home = () => {
               </div>
             </div>
 
-            <img src={profile2} alt='profile-picture' className='profile-picture' />
+            <img src={newProfile} alt='profile-picture' className='profile-picture' />
 
             <div className='container-last-part-hero'>
               <div className='cards-hero-container'>
