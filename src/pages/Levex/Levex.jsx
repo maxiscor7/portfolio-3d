@@ -45,7 +45,6 @@ const Levex = () => {
             <li><strong>Enhance Web Presence:</strong> Improve indexing and search engine positioning to increase online visibility.</li>
             <li><strong>Present Offerings Attractively:</strong> Use a minimalist and visually appealing design to showcase Levex's services and products.</li>
             <li><strong>Adapt to the Helice Platform:</strong> Seamlessly integrate and optimize content within the Helice platform.</li>
-            <li><strong>Organize Technology Events:</strong> Effectively plan and promote technology events to attract new clients in the industrial sector.</li>
             <li><strong>Adhere to Brand Guidelines:</strong> Follow the established brand manual, including colors, typography, and visual styles.</li>
           </ul>
         </div>
@@ -55,7 +54,6 @@ const Levex = () => {
 
             <li><strong>Platform Adaptation:</strong> The Helice platform required careful adaptation to its unique structure, necessitating ongoing content additions and modifications.</li>
             <li><strong>Content Organization:</strong> Ensuring that all information, especially success stories, was presented in an organized and accessible manner.</li>
-            <li><strong>Event Management:</strong> Utilizing a new application to streamline the organization and promotion of technology events.</li>
             <li><strong>Brand Consistency:</strong> Maintaining consistency with the brand manual in all visual and textual content.</li>
           </ul>
         </div>
@@ -65,7 +63,6 @@ const Levex = () => {
             <li><strong>Content Migration and Structuring:</strong> Transferred and structured all relevant information, particularly industry success stories, within the Helice platform.</li>
             <li><strong>SEO Optimization:</strong> Implemented SEO best practices to improve web indexing and positioning, including keyword research, meta tags, and optimized content.</li>
             <li><strong>Visual Design:</strong> Employed a minimalist design approach using the brand's color palette and typography to create a cohesive and attractive presentation of Levex's offerings.</li>
-            <li><strong>Event Organization Tool:</strong> Adopted and adapted to a new application for organizing and managing technology events, ensuring efficient scheduling and promotion.</li>
             <li><strong>Brand Manual Adherence:</strong> Consistently applied the brand manual's guidelines for colors, typography, and visual styles across all platforms and materials.</li>
           </ul>
         </div>
@@ -74,7 +71,6 @@ const Levex = () => {
           <ul>
             <li><strong>Increased Online Visibility:</strong> Achieved higher indexing and better search engine positioning, leading to increased website traffic.</li>
             <li><strong>Enhanced User Experience:</strong> The minimalist and visually appealing design improved user engagement and satisfaction.</li>
-            <li><strong>Successful Events:</strong> Organized several technology events that effectively attracted new clients and promoted the incorporation of advanced technologies in the industry.</li>
             <li><strong>Consistent Branding:</strong> Maintained a strong and consistent brand presence across all platforms and materials.</li>
           </ul>
         </div>
