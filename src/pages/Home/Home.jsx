@@ -187,7 +187,7 @@ const Home = () => {
                   <h4>Frontend Development</h4>
                   <ul>
                     <li><strong>Languages & Technologies:</strong> HTML, CSS, JavaScript</li>
-                    <li><strong>Frameworks & Libraries:</strong> React, Next.js, Bootstrap, Tailwind, Three.js, React Router DOM, Redux</li>
+                    <li><strong>Frameworks & Libraries:</strong> React, Bootstrap, Tailwind, Three.js, React Router DOM, Redux</li>
                     <li><strong>Other Skills:</strong> Responsive Web Design, Saas, SEO</li>
                   </ul>
                 </div>
