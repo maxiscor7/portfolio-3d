@@ -55,7 +55,7 @@ const Home = () => {
             <div className='container-last-part-hero'>
               <div className='cards-hero-container'>
                 <h2>FRONT-END DEVELOPER</h2>
-                <p>Based in Argentina, with over 4 years of experience crafting web solutions. Skilled in HTML, CSS, JavaScript, React, Vite, Next.js, and proficient with platforms like Webflow and WordPress, delivering seamless and optimized digital experiences.</p>
+                <p>Based in Spain, A Coruña, with over 4 years of experience crafting web solutions. Skilled in HTML, CSS, JavaScript, React, Vite, Next.js, and proficient with platforms like Webflow and WordPress, delivering seamless and optimized digital experiences.</p>
               </div>
               <div className='cards-hero-container'>
                 <h2>ABOUT ME</h2>
@@ -83,7 +83,7 @@ const Home = () => {
                   <div className='container-text-box-experience'>
                     <h4>Levex</h4>
                     <p className='charge-experience'>Front-End Developer</p>
-                    <p>Sept. 2023 - present</p>
+                    <p>Sept. 2023 - Dec. 2024</p>
                     <p>Responsible for the maintenance and continuous development of the company's website. Responsible for the strategic incorporation of content, as well as the efficient execution of periodic updates. I ensure optimal site performance by implementing the latest web practices and technologies, thereby contributing to improved online presence and user experience.</p>
                   </div>
                 </div>
